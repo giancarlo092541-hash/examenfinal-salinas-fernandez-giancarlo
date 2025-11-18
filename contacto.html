@@ -36,11 +36,11 @@
     <form id="contactForm" action="#" method="post" novalidate>
       <div class="mb-3">
         <label for="nombre" class="form-label">Nombre <span class="required">*</span></label>
-        <input type="text" id="nombre" name="nombre" class="form-control" required>
+        <input type="text" id="nombre" name="nombre" class="form-control" required placeholder="Ingrese su nombre completo"  >
       </div>
       <div class="mb-3">
         <label for="telefono" class="form-label">Teléfono <span class="required">*</span></label>
-        <input type="tel" id="telefono" name="telefono" class="form-control" required pattern="[0-9+\- ]+">
+        <input type="tel" id="telefono" name="telefono" class="form-control" required pattern="[0-9+\- ]+" placeholder="Ingrese su número telefónico"    >
       </div>
       <div class="mb-3">
         <label for="email" class="form-label">Correo electrónico</label>
@@ -48,7 +48,7 @@
       </div>
       <div class="mb-3">
         <label for="cantidad" class="form-label">Cantidad (número)</label>
-        <input type="number" id="cantidad" name="cantidad" class="form-control" min="1">
+        <input type="number" id="cantidad" name="cantidad" class="form-control" min="1"  placeholder="Ingrese la cantidad de personas"   >
       </div>
       <div class="mb-3 form-check">
         <input type="checkbox" id="acepto" name="acepto" class="form-check-input">
@@ -56,7 +56,7 @@
       </div>
       <div class="mb-3">
         <label for="mensaje" class="form-label">Mensaje</label>
-        <textarea id="mensaje" name="mensaje" class="form-control" rows="4" maxlength="1000"></textarea>
+        <textarea id="mensaje" name="mensaje" class="form-control" rows="4" maxlength="1000" placeholder="Coloca una descripcion breve (opcional)"  ></textarea  >
       </div>
       <button type="submit" class="btn btn-primary">Enviar</button>
       <button type="reset" class="btn btn-secondary">Cancelar</button>
