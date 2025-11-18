@@ -1,0 +1,65 @@
+/* General */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 70px;
+}
+
+h2 {
+  color: #D62828;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Navbar personalizado */
+.navbar {
+  background-color: #D62828 !important;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #FFC107 !important;
+}
+
+/* Carousel */
+.carousel-img {
+  height: 500px;
+  object-fit: cover;
+  filter: brightness(85%);
+}
+
+/* Cards */
+.product-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #212529;
+  color: #fff;
+  padding: 15px 0;
+}
+
+/* Botón personalizado */
+.btn-custom {
+  background-color: #F77F00;
+  color: #fff;
+  border-radius: 50px;
+}
+
+.btn-custom:hover {
+  background-color: #D62828;
+  color: #fff;
+}
